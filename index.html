@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/assets/style.css" rel="stylesheet">
+
+    <title>AJM GP | HOME</title>
+    <link rel="icon" href="/assets/Gambar/LogoBawah.png" type="image/png">
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="nav-container">
+        <header>
+            <div class="logo">
+                <img src="/assets/Gambar/SidebarLogo.png" alt="Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#hero-container-selection">Home</a></li>
+                    <li><a href="#about-us-section">ABOUT US</a></li>
+                    <li><a href="/ourproduct.html">OUR PRODUCT</a></li>
+                    <li><a href="ourproduct.html#installation-container">INSTALLATION</a></li>
+                    <li><a href="#contact-section">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+        <hr>
+    </div>
+    <!-- Hero -->
+    <div class="hero-container" id="hero-container-selection">
+        <div class="hero-text">
+            <h1>AGUNG JAYA MANDIRI</h1>
+            <p>Best Supplier Quality Product for Industrial</p>
+            <br>
+            <br>
+        </div>
+    </div>
+    <!-- Showcase -->
+
+    <div class="showcase-container" id="about-us-section">
+        <section class="showcase">
+            <div class="showcase-text">
+                <h1>ABOUT US</h1>
+                <p><strong style="font-weight: bold;">Agung Jaya Mandiri</strong> is a company engaged in the
+                    procurement field, located in Sidoarjo.</p>
+                <p>The advantages of our company include trying to maintain and provide the best to customers and
+                    continuously making <strong style="font-weight: bold;">Agung Jaya Mandiri</strong> a good
+                    business
+                    partner for our customers.</p>
+
+            </div>
+            <div class="showcase-image">
+                <img src="/assets/Gambar/Show1.png" alt="">
+            </div>
+        </section>
+        <hr>
+
+        <div class="showcase-container">
+            <section class="showcase">
+                <div class="showcase-image">
+                    <img src="/assets/Gambar/Show2.png" alt="">
+                </div>
+                <div class="showcase-text">
+                    <p>We want to provide superior products that have the best quality, good for Import product or a
+                        good local product.</p>
+                    <p>Thank you to all customers who have given confidence to the <strong
+                            style="font-weight: bold;">Agung Jaya Mandiri</strong> as a partner and a good working
+                        partner.</p>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <footer id="contact-section">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="/assets/Gambar/LogoBawah.png" alt="PRATAMA AJM GLOBAL">
+            </div>
+            <div class="footer-contact">
+                <h3>CONTACT US</h3>
+                <p>AJM GLOBAL PRATAMA</p>
+                <ul>
+                    <li>No Telepon: 0831-3071-0777</li>
+                    <li>Email: ajm_eastjava@yahoo.co.id</li>
+                    <li>No Telepon: 0812-3062-1333</li>
+                    <li>Email: gp.marketing@agungjayamandiri.com</li>
+                    <li>Telp. (62-31) 853 9345 (Hunting)</li>
+                    <li>Fax. (62-31) 853 9323</li>
+                </ul>
+            </div>
+            <div class="footer-address">
+                <h3>Office Address</h3>
+                <p>Bungurasih Timur I/14 Waru Sidoarjo - Jawa Timur</p>
+                <p>Website: <a href="www.agungjayamandiri.com">www.agungjayamandiri.com</a></p>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Select all links with hashes
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                // Scroll to the target element
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    });
+</script>
+
+
+</html>
