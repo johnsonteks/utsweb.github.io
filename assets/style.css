@@ -69,7 +69,7 @@ h1 {
 /* HERO */
 .hero-container {
   background-image: linear-gradient(rgba(1, 1, 1, 0.5), rgba(1, 1, 1, 0.5)),
-    url("./Gambar/Home.jpg");
+    url("../Gambar/Home.jpg");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
